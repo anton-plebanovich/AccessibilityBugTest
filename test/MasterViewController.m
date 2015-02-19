@@ -19,7 +19,8 @@
     [super awakeFromNib];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         self.clearsSelectionOnViewWillAppear = NO;
-        self.preferredContentSize = CGSizeMake(320.0, 600.0);
+        self.preferredContentSize = CGSizeMake(600.0, 600.0);
+        
     }
 }
 
@@ -108,8 +109,12 @@
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+    UILabel *customLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 120, 300, 20)];
+    customLabel.text = [NSString stringWithFormat:@"%d", arc4random()%10000];
+    customLabel.isAccessibilityElement = YES;
+    [cell.contentView addSubview:customLabel];
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
+//    cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
 }
 
 #pragma mark - Fetched results controller

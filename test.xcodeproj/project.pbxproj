@@ -16,6 +16,8 @@
 		F9A814BB1A95F9460059D7C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A814BA1A95F9460059D7C2 /* Images.xcassets */; };
 		F9A814BE1A95F9460059D7C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A814BC1A95F9460059D7C2 /* LaunchScreen.xib */; };
 		F9A814CA1A95F9460059D7C2 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A814C91A95F9460059D7C2 /* testTests.m */; };
+		F9A814D71A961A9B0059D7C2 /* g12TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A814D61A961A9B0059D7C2 /* g12TableViewCell.m */; };
+		F9A814DA1A961E250059D7C2 /* MCAccessibilityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A814D91A961E250059D7C2 /* MCAccessibilityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		F9A814C31A95F9460059D7C2 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A814C81A95F9460059D7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9A814C91A95F9460059D7C2 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		F9A814D51A961A9B0059D7C2 /* g12TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g12TableViewCell.h; sourceTree = "<group>"; };
+		F9A814D61A961A9B0059D7C2 /* g12TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = g12TableViewCell.m; sourceTree = "<group>"; };
+		F9A814D81A961E250059D7C2 /* MCAccessibilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAccessibilityView.h; sourceTree = "<group>"; };
+		F9A814D91A961E250059D7C2 /* MCAccessibilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAccessibilityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				F9A814B21A95F9460059D7C2 /* MasterViewController.m */,
 				F9A814B41A95F9460059D7C2 /* DetailViewController.h */,
 				F9A814B51A95F9460059D7C2 /* DetailViewController.m */,
+				F9A814D81A961E250059D7C2 /* MCAccessibilityView.h */,
+				F9A814D91A961E250059D7C2 /* MCAccessibilityView.m */,
+				F9A814D51A961A9B0059D7C2 /* g12TableViewCell.h */,
+				F9A814D61A961A9B0059D7C2 /* g12TableViewCell.m */,
 				F9A814B71A95F9460059D7C2 /* Main.storyboard */,
 				F9A814BA1A95F9460059D7C2 /* Images.xcassets */,
 				F9A814BC1A95F9460059D7C2 /* LaunchScreen.xib */,
@@ -228,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A814B61A95F9460059D7C2 /* DetailViewController.m in Sources */,
+				F9A814DA1A961E250059D7C2 /* MCAccessibilityView.m in Sources */,
 				F9A814B31A95F9460059D7C2 /* MasterViewController.m in Sources */,
+				F9A814D71A961A9B0059D7C2 /* g12TableViewCell.m in Sources */,
 				F9A814AD1A95F9460059D7C2 /* AppDelegate.m in Sources */,
 				F9A814AA1A95F9460059D7C2 /* main.m in Sources */,
 				F9A814B01A95F9460059D7C2 /* test.xcdatamodeld in Sources */,
